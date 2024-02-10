@@ -1,0 +1,92 @@
+.main{
+ display: flex;
+}
+.left-container{
+ position: relative;
+ flex: 1;
+ height: 880px;
+}
+.logo{
+ position: absolute;
+ bottom: 5px;
+ left: 10px
+}
+.expedise{
+ width: 200px;
+}
+.right-container{
+ display: flex;
+ flex: 1;
+ margin-right: 110px;
+ height: 880px;
+ justify-content: center;
+ align-items: center;
+}
+.login{
+ margin-left: 10px;
+ margin-right: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ position: relative;
+}
+.text, .username, .password, .btn-login, .forgotpassword{
+margin-top: 15px;
+color: rgba(0, 195, 255, 100);
+font-weight: bolder;
+}
+.text{
+ font-size: 23px;
+ font-weight: 900;
+}
+.username, .password{
+ border-style: solid;
+ border-radius: 50px;
+ border-width: 2px;
+}
+.txtusername, .txtpassword{
+ color: rgba(0, 195, 255, 100);
+ text-align: center;
+ border-style: none;
+}
+.txtusername{
+ width: 230px;
+}
+.txtpassword{
+ width: 220px;
+}
+input{
+ height: 30px;
+}
+input:focus{
+ outline-style: none;
+ box-shadow: none;
+}
+input:focus::placeholder{
+ color: transparent;
+}
+::placeholder{
+ font-weight: 700;
+ text-align: center;
+ color: rgba(0, 195, 255, 50);
+}
+.button{
+ width: 280px;
+ color: rgba(0, 195, 255, 100);
+ height: 35px;
+ font-weight: 700;
+}
+input, .button{
+ border-radius: 50px;
+ background-color:rgba(0, 29, 49, 100);
+ border-style: solid;
+ border-color: rgba(0, 195, 255, 100);
+ font-size: 12px;
+}
+.forgotpassword{
+ position: absolute;
+ font-size: 12px;
+ font-weight: 700px;
+ bottom: -20px;
+ right: 15px;
+}

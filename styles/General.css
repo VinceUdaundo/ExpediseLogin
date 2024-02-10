@@ -1,0 +1,10 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: rgba(0, 29, 46, 100);
+
+ background-image: url("img/Element1.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+}
